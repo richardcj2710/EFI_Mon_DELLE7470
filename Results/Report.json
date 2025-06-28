@@ -1,0 +1,364 @@
+{
+    "Motherboard": {
+        "Name": "DELL LATITUDE E7470",
+        "Chipset": "Sunrise Point-LP",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "1.36.3",
+        "Release Date": "2022-09-18",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i5-6200U",
+        "Codename": "Skylake",
+        "Core Count": "02",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Intel(R) HD Graphics 520": {
+            "Manufacturer": "Intel",
+            "Codename": "Skylake",
+            "Device ID": "8086-1916",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "CMN14C0": {
+            "Connector Type": "Internal",
+            "Resolution": "1920x1080",
+            "Connected GPU": "Intel(R) HD Graphics 520"
+        }
+    },
+    "Network": {
+        "Intel(R) Dual Band Wireless-AC 8260": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-24F3",
+            "Subsystem ID": "00508086",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP05.PXSX"
+        },
+        "Intel(R) Ethernet Connection I219-LM": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-156F",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x6)",
+            "ACPI Path": "\\_SB.PCI0.GLAN"
+        }
+    },
+    "Sound": {
+        "High Definition Audio Device": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0293",
+            "Subsystem ID": "102806DC",
+            "Audio Endpoints": [
+                "Microphone",
+                "Speakers"
+            ],
+            "Controller Device ID": "8086-9D70"
+        },
+        "Intel(R) Display Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-2809",
+            "Subsystem ID": "80860101",
+            "Controller Device ID": "8086-9D70"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9D2F",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHC_"
+        }
+    },
+    "Input": {
+        "USB Input Device": {
+            "Bus Type": "USB",
+            "Device ID": "1A2C-9D01"
+        },
+        "Standard PS/2 Keyboard": {
+            "Bus Type": "ACPI",
+            "Device": "DLLK06DC",
+            "Device Type": "PS/2"
+        },
+        "Dell Touchpad": {
+            "Bus Type": "ACPI",
+            "Device": "DLL06DC",
+            "Device Type": "PS/2"
+        }
+    },
+    "Storage Controllers": {
+        "Sunrise Point-LP SATA Controller [AHCI mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9D03",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x17,0x0)",
+            "ACPI Path": "\\_SB.PCI0.SAT0",
+            "Disk Drives": [
+                "SanDisk Z400s M.2 2280 256GB"
+            ]
+        }
+    },
+    "Bluetooth": {
+        "Intel(R) Wireless Bluetooth(R)": {
+            "Bus Type": "USB",
+            "Device ID": "8087-0A2B"
+        }
+    },
+    "SD Controller": {
+        "Realtek PCIE CardReader": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-525A",
+            "Subsystem ID": "06DC1028"
+        }
+    },
+    "System Devices": {
+        "Motherboard resources": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PDRC"
+        },
+        "Motherboard resources_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDRC"
+        },
+        "Motherboard resources_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.SIRC"
+        },
+        "Microsoft ACPI-Compliant Embedded Controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PCI0.LPCB.ECDV"
+        },
+        "ACPI Processor Aggregator": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000C",
+            "ACPI Path": "\\_SB.PAGD"
+        },
+        "PCI standard ISA bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9D48",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPCB"
+        },
+        "Volume Manager": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "PCI Express Root Port": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9D1A",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP11"
+        },
+        "Intel(R) Dynamic Platform and Thermal Framework Manager": {
+            "Bus Type": "ACPI",
+            "Device": "INT3400",
+            "ACPI Path": "\\_SB.IETM"
+        },
+        "Microsoft Basic Display Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "ACPI Thermal Zone": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.THM_"
+        },
+        "ACPI Sleep Button": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0E",
+            "ACPI Path": "\\_SB.SBTN"
+        },
+        "Intel(R) Dynamic Platform and Thermal Framework Generic Participant": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.ECDV.TSKN"
+        },
+        "Microsoft Windows Management Interface for ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.AMW0"
+        },
+        "Microsoft Hyper-V Virtualization Infrastructure Driver": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "Intel(R) Dynamic Platform and Thermal Framework Generic Participant_#1": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.LPCB.ECDV.NGFF"
+        },
+        "High precision event timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPCB.HPET"
+        },
+        "Composite Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Microsoft Virtual Drive Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "High Definition Audio Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9D70",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PCI0.HDAS"
+        },
+        "Legacy device": {
+            "Bus Type": "ACPI",
+            "Device": "INT0800",
+            "ACPI Path": "\\_SB.PCI0.LPCB.FWHD"
+        },
+        "Intel(R) Management Engine Interface #1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9D3A",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HECI"
+        },
+        "Intel(R) Dynamic Platform and Thermal Framework Generic Participant_#2": {
+            "Bus Type": "ACPI",
+            "Device": "INT3403",
+            "ACPI Path": "\\_SB.PCI0.TMEM"
+        },
+        "ACPI Lid": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.LID0"
+        },
+        "Motherboard resources_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PRRE"
+        },
+        "System timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.LPCB.TIMR"
+        },
+        "Printer Port Logical Interface": {
+            "Bus Type": "LPTENUM",
+            "Device": "MICROSOFTRAWPORT"
+        },
+        "UMBus Root Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Charge Arbitration Driver": {
+            "Bus Type": "ROOT",
+            "Device": "CAD"
+        },
+        "PCI Express Root Complex": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "ACPI Power Button": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PBTN"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Microsoft Basic Render Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Microsoft UEFI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "UEFI"
+        },
+        "PCI standard host CPU bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1904",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "ACPI Fixed Feature Button": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "Intel(R) Power Engine Plug-in": {
+            "Bus Type": "ACPI",
+            "Device": "INT33A1",
+            "ACPI Path": "\\_SB.PEPD"
+        },
+        "Motherboard resources_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.IOTR"
+        },
+        "NDIS Virtual Network Adapter Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "System CMOS/real time clock": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0B00",
+            "ACPI Path": "\\_SB.PCI0.LPCB.RTC_"
+        },
+        "Programmable interrupt controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.LPCB.IPIC"
+        },
+        "PCI Express Root Port_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-9D14",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP05"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Motherboard resources_#5": {
+            "Bus Type": "ACPI",
+            "Device": "INT340E",
+            "ACPI Path": "\\_SB.PTID"
+        },
+        "Motherboard resources_#6": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.CWDT"
+        },
+        "Plug and Play Software Device Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Remote Desktop Device Redirector Bus": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        },
+        "Intel(R) Dynamic Platform and Thermal Framework Processor Participant": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1903",
+            "Subsystem ID": "06DC1028",
+            "PCI Path": "PciRoot(0x0)/Pci(0x4,0x0)",
+            "ACPI Path": "\\_SB.PCI0.B0D4"
+        }
+    }
+}
